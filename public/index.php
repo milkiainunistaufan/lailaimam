@@ -147,7 +147,7 @@
         <div class="w-full lg:w-2/3 lg:mx-auto">
         <div class="w-full px-4 mb-2">
             <label for="name" class="text-base text-slate-900 ">Nama</label>
-            <input type="text" name="name" id="name" value="<?=$_GET['to']?>" class="w-full bg-slate-100 text-slate-900 p-1 rounded-md focus:outline-none focus:ring-slate-900 focus:ring-1 focus:border-slate-900">
+            <input type="text" name="name" id="name" value="<?=$_GET['to']?>" placeholder="Ketikan Nama Anda" class="w-full bg-slate-100 text-slate-900 p-1 rounded-md focus:outline-none focus:ring-slate-900 focus:ring-1 focus:border-slate-900">
         </div>
         <div class="w-full px-4 mb-2">
             <label for="message" class="text-base text-slate-900 ">Pesan</label>
